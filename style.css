@@ -45,7 +45,7 @@ body {
     justify-content: center;
 }
 
-.quote-area .quote {
+.quote-area #output {
     font-size: 18px;
     font-family: 'Quicksand';
     text-align: justify;
