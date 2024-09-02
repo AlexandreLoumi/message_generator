@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #343a40;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-family: Poppins;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #61D095;
+}
+
+.wrapper {
+    width: 605px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+
+.wrapper header {
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.wrapper .content {
+    margin: 25px 0;
+}
+
+.content .quote-area {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-area .quote {
+    font-size: 18px;
+    font-family: 'Quicksand';
+    text-align: justify;
+}
+
+.content .author {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #ccc;
+}
+
+.author .name {
+    margin-bottom: 20px;
+}
+
+.author span:first-child {
+    margin: -7px 5px;
+    font-family: 'monospace';
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons button {
+    border: none;
+    outline: none;
+    background: #61D095;
+    padding: 13px 22px;
+    border-radius: 28px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: aliceblue;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.buttons button:hover {
+    background: #fff;
+    color: #61D095;
+}
